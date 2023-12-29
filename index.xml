@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ashish Kujur: Home on Ashish Kujur</title>
+    <link>https://ashishkujur7.github.io/</link>
+    <description>Recent content in Ashish Kujur: Home on Ashish Kujur</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ashishkujur7.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ashish Kujur: Contact</title>
+      <link>https://ashishkujur7.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ashishkujur7.github.io/contact/</guid>
+      <description> Email: ashishkujur23@iisertvm.ac.in, kujur.ash@gmail.com Phone: +919668264604 Social Twitter GitHub </description>
+    </item>
+    
+    <item>
+      <title>Ashish Kujur: Interesting Links</title>
+      <link>https://ashishkujur7.github.io/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ashishkujur7.github.io/links/</guid>
+      <description>This is a compilation of links that I find interesting. I may add some details later.
+Operator Theory &amp;amp; Complex Analysis OTTER - Operator Theory Talks for Early Researchers FOCAHA - Forum of Complex And Harmonic Analysis Complex Analysis Lab </description>
+    </item>
+    
+  </channel>
+</rss>
