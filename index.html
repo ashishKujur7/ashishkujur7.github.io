@@ -105,7 +105,32 @@ hours at a desk doing grueling work. Sitzfleisch is considered by mathematicians
 
 </div>
 
-        </div><div id="footer" class="mb-5">
+        </div>  <style>
+    #lastUpdated {
+      font-size: medium;  
+    }
+  </style>
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+      const lastModified = new Date(document.lastModified);
+      const day = String(lastModified.getDate()).padStart(2, '0');
+      const month = String(lastModified.getMonth() + 1).padStart(2, '0');
+      const year = String(lastModified.getFullYear()).slice(-2);
+      const hours = lastModified.getHours();
+      const minutes = String(lastModified.getMinutes()).padStart(2, '0');
+      
+      
+      const ampm = hours >= 12 ? 'PM' : 'AM';
+      const formattedHours = hours % 12 === 0 ? 12 : hours % 12;
+      const formattedTime = `${formattedHours}:${minutes} ${ampm}`;
+      
+      const formattedDateTime = `${day}.${month}.${year} ${formattedTime}`;
+      
+      const lastUpdatedElement = document.getElementById('lastUpdated');
+      lastUpdatedElement.innerText = 'Last Updated: ' + formattedDateTime;
+    });
+  </script>
+<div id="footer" class="mb-5">
     <hr>
     
     <div class="container text-center">
@@ -120,10 +145,14 @@ hours at a desk doing grueling work. Sitzfleisch is considered by mathematicians
     
     
         <div class="container text-center">
-            <a href="https://ashishkujur7.github.io" title="Last Updated: 30.12.2023" ><small>Last Updated: 30.12.2023</small></a>
+
+  <p id="lastUpdated"><small></small></p>
         </div>
     
 </div>
+
+
+
 
     </body>
 </html>
